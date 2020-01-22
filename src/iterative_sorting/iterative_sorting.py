@@ -15,11 +15,8 @@ def selection_sort( arr ):
             arr[i], arr[smallest_index] = smallest_value, arr[i]
         # TO-DO: swap
 
-
-
     print(arr)
     return arr
-
 
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
@@ -38,5 +35,5 @@ def count_sort( arr, maximum=-1 ):
 
     return arr
 
-
-bubble_sort([3, 5, 1])
+selection_sort([5,2,8,9,6,4,3,6,7,234,567,8])
+bubble_sort([3, 5, 1,8,3,7,8,9,6,4,5,3,5,6,898,5])
